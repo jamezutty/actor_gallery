@@ -1,0 +1,38 @@
+.row{
+    height: 600px;
+    width: 100%;
+    background-color: blue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.col{
+    height: 500px;
+    width: 300px;
+    
+    position: absolute;
+    margin:50px 50px 75px;
+}
+.col-1{
+    
+    background-color: beige;
+    left: 0px;
+}
+.col-2{
+    
+    background-color: beige;
+    left: 330px;
+}
+.col-3{
+    
+    background-color: beige;
+    left: 650px;
+}
+.col-4{
+    
+    background-color: beige;
+    left: 980px;
+}
+#a{
+    font-style: italic;
+}
